@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sewa WhatsApp By prince dill</title>
+    <style>
+        /* Variabel warna abu-abu */
+        :root {
+            --gray-dark: #2c3e50;
+            --gray-medium: #7f8c8d;
+            --gray-light: #bdc3c7;
+            --gray-very-light: #ecf0f1;
+            --accent: #3498db;
+        }
+        
+        /* Reset dan gaya dasar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--gray-very-light), var(--gray-light));
+            color: var(--gray-dark);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header */
+        header {
+            text-align: center;
+            padding: 30px 0;
+            margin-bottom: 30px;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--gray-dark);
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            color: var(--gray-medium);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* Card styles */
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card h2 {
+            color: var(--gray-dark);
+            border-bottom: 2px solid var(--gray-light);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        /* Pricing section */
+        .pricing-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        
+        .pricing-card {
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+            background: linear-gradient(145deg, var(--gray-very-light), #ffffff);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .pricing-card h3 {
+            color: var(--gray-dark);
+            margin-bottom: 15px;
+        }
+        
+        .price {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: var(--gray-dark);
+            margin: 15px 0;
+        }
+        
+        /* Terms section */
+        .terms-list {
+            list-style-type: none;
+        }
+        
+        .terms-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid var(--gray-very-light);
+        }
+        
+        .terms-list li:before {
+            content: "•";
+            color: var(--accent);
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        
+        /* CTA section */
+        .cta {
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        .cta h2 {
+            color: var(--gray-dark);
+            margin-bottom: 20px;
+        }
+        
+        .cta p {
+            margin-bottom: 25px;
+            font-size: 1.1rem;
+        }
+        
+        .telegram-btn {
+            display: inline-block;
+            background-color: #0088cc;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .telegram-btn:hover {
+            background-color: #006da3;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: var(--gray-medium);
+            border-top: 1px solid var(--gray-light);
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .pricing-container {
+                flex-direction: column;
+            }
+            
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sewain WhatsApp aja di Prince Dil</h1>
+            <p>Kalian lagi butuh uang? Tapi ga tau harus ngapain? Dapatkan duit dengan mudah hanya dengan menyewakan WhatsApp Anda!</p>
+        </header>
+        
+        <section class="card">
+            <h2>Rate Layanan Kami</h2>
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <h3>Per Chat</h3>
+                    <div class="price">300P</div>
+                    <p>Bayaran per chat yang masuk ke WhatsApp Anda</p>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>1 Jam</h3>
+                    <div class="price">15.000</div>
+                    <p>Sewakan WhatsApp Anda selama 1 jam</p>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>2 Jam</h3>
+                    <div class="price">30.000</div>
+                    <p>Sewakan WhatsApp Anda selama 2 jam</p>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>5 Jam</h3>
+                    <div class="price">80.000</div>
+                    <p>Sewakan WhatsApp Anda selama 5 jam</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="card">
+            <h2>Syarat & Ketentuan Sewa WhatsApp</h2>
+            <ul class="terms-list">
+                <li>No WhatsApp minimal sudah ke save lebih dari 3 bulan</li>
+                <li>WhatsApp harus aktif dan dalam kondisi正常 (tidak diblokir)</li>
+                <li>Penyewa tidak diperbolehkan mengirim konten ilegal atau melanggar hukum</li>
+                <li>Pembayaran dilakukan di depan melalui metode yang disepakati</li>
+                <li>Prince Dil berhak menolak penyewaan tanpa pemberitahuan sebelumnya</li>
+            </ul>
+        </section>
+        
+        <section class="cta">
+            <h2>Kapan lagi bisa dapet duit tinggal tiduran aja!</h2>
+            <p>Minat? Hubungi kami melalui Telegram untuk informasi lebih lanjut</p>
+            <a href="https://t.me/devky88" class="telegram-btn">Hubungi di Telegram</a>
+        </section>
+        
+        <footer>
+            <p>&copy; 2023 Prince Dil - Sewa WhatsApp Service. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
